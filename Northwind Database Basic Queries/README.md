@@ -1,59 +1,37 @@
 # Northwind Database - Basic Queries
 
-This project demonstrates **basic SQL queries** on the Northwind Database. The included SQL script and screenshot show how to select data, filter using conditions, and handle string values correctly.
+In this project, I explored the **Northwind Database** by writing and executing basic SQL queries. The goal was to practice selecting data, filtering records, and correctly handling string and numeric values.
 
-## File Description
+## What I Did
 
-- **Filename:** `Northwind_Basic_Queries.sql`
-- **Format:** SQL script (.sql)
-- **Contents:** Basic SELECT queries with WHERE conditions, including examples for Products, Customers, and Orders tables.
+1. **Selected Specific Records**
+   - Retrieved a product by its ID from the `Products` table.
+   - Queried customers located in a specific city (`London`) from the `Customers` table.
+   
+2. **Applied Filters**
+   - Used numeric comparisons to find products with a price greater than 100.
+   - Filtered orders placed after a specific date (`1996-07-30`) from the `Orders` table.
 
-## Key SQL Concepts Demonstrated
+3. **Handled String Values**
+   - Ensured that string values from the table were enclosed in quotation marks (`''` or `""`).
+   - Practiced using `!=` and `<>` operators to filter out specific cities (`Madrid`).
 
-1. **String Values**
-   - Any string except keywords, table names, column names, etc., must be enclosed in double quotes (`""`) or single quotes (`''`).
-   - String values from the table must be enclosed by quotation marks:
-     ```sql
-     WHERE City = 'London';
-     WHERE OrderDate > '1996-07-30';
-     ```
+4. **Explored Query Variations**
+   - Tested different comparison operators for the same query to understand how SQL interprets them.
+   - Combined selection and filtering to get precise results from multiple tables.
 
-2. **Selecting Specific Records**
-   - Select a specific product by ID:
-     ```sql
-     SELECT * FROM Products
-     WHERE ProductID = 1;
-     ```
-   - Filter customers by city:
-     ```sql
-     SELECT * FROM Customers
-     WHERE City = 'London';
-     ```
+## Screenshot
+<img width="649" height="696" alt="Screenshot (51)" src="https://github.com/user-attachments/assets/c5dcd2e0-43a0-421b-a6f9-7f580460b6fa" />
 
-3. **Using Comparison Operators**
-   - Greater than (`>`) for numerical or date values:
-     ```sql
-     SELECT * FROM Products
-     WHERE Price > 100;
-     ```
-   - Not equal to (`!=` or `<>`) for string values:
-     ```sql
-     SELECT customername, city, country
-     FROM customers
-     WHERE city != "Madrid";
-     
-     SELECT customername, city, country
-     FROM customers
-     WHERE city <> "Madrid";
-     ```
 
-## Screenshots
+- I included screenshots of the queries and their results.
+- Each screenshot demonstrates how the queries return the expected data.
 
-- Screenshots will be included in the repo to show query execution and results.
-- Each screenshot will illustrate the SQL query and its returned data.
+## Key Learnings
 
-## Usage
+- Practiced writing basic SELECT statements with WHERE conditions.
+- Learned proper handling of string and numeric values in SQL.
+- Gained experience using comparison operators to filter data effectively.
 
-- Open the SQL script in a database management system (DBMS) that supports SQL.
-- Execute the queries to see filtering, comparison operators, and proper string handling in action.
-- Useful for beginners learning SQL SELECT statements and basic WHERE conditions.
+
+
