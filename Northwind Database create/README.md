@@ -19,6 +19,8 @@ In this part of the Northwind Database project, I focused on **adding primary ke
    - They help maintain **data integrity** and enable **efficient querying**.
 
 3. **Screenshot**
+4. <img width="675" height="708" alt="Screenshot (52)" src="https://github.com/user-attachments/assets/e39cfbb2-90ff-4c8e-9156-c03575c9e5e3" />
+
    - The screenshot in the repo shows the SQL commands used to add primary keys to all the main tables.
 
 ## SQL Example
@@ -51,3 +53,4 @@ ALTER TABLE products
 -- Indexes for table orders
 ALTER TABLE orders
   ADD PRIMARY KEY (OrderID);
+
