@@ -42,9 +42,8 @@ This project uses the **Northwind Database** to demonstrate SQL queries, joins, 
      on employees.employeeid = orders.employeeid;
      ```
 
-## Screenshots
+## Screenshot
+ <img width="658" height="711" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/ab7b1530-2598-404c-9983-058aa541284c" />
 
-- Screenshots will be included in the repo to show query execution and results.
+- Screenshot will be included in the repo to show query execution and results.
 - Each screenshot will be accompanied by explanations of the query and results.
-
-
