@@ -62,3 +62,14 @@ ALTER TABLE products
 ALTER TABLE orders
   ADD PRIMARY KEY (OrderID);
 
+## 💬 Let’s Connect
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gaspare-tocci/)  
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Riello76)  
+📧 Email: [gaspare_tocci@yahoo.it](mailto:gaspare_tocci@yahoo.it)  
+
+---
+
+⭐ **Thanks for visiting this repository!**
+
+
